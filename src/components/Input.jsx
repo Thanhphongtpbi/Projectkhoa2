@@ -6,14 +6,16 @@ export const Input = ({
   type = 'text',
   value,
   handleChange,
+  handleBlur,
 }) => {
   return (
-    <input
+    <input 
       id={name}
       placeholder={placeholder}
       type={type}
       value={value}
       onChange={(e) => handleChange(e.target.value)}
+      onBlur ={handleBlur}
     />
   );
 };
