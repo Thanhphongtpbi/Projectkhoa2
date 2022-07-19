@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { FormRegiter } from '../containers/Register';
 
 const Register = () => {
-  return (
-    <div>Register</div>
-  )
+  return (<FormRegiter/>);
 }
-
 export default Register

@@ -53,7 +53,7 @@ export const FormLogin = () => {
       <div className='inputinfo'>
       </div>
       <div className='inputfrom'>
-         <h2> SIGN IN </h2>
+         <h2> LOGIN </h2>
          <form className='fromlogin'>
           <div className='formloginemail'>
            <p>Email</p>

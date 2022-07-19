@@ -1,0 +1,45 @@
+ol{
+    list-style: none;
+}
+.containernabar{
+    height: 100px;
+    width: 100%;
+    background-color:rgba(207, 107, 107, 0.432);
+    opacity: 0.8;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.icon{
+    width: 300px;
+}
+.iconname {
+    font-size: 50px;
+    color: rgba(48, 71, 71, 0.548);
+}
+ol{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.the{
+    margin: 0px, 30px,0px,50px;
+}
+.narbartable{
+    width: 500px;
+}
+.lockingfor{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lockingfor input{
+    height: 30px;
+    width: 300px;
+    border: 10px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
