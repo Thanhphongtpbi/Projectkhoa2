@@ -1,0 +1,104 @@
+.Listbookinfo{
+    display: flex;
+    justify-content: center;
+}
+.containerListbookinfo{
+    width: 1200px;
+    background: rgb(226, 223, 223);
+    box-sizing: 2px solid black;
+    box-shadow: 10px rgb(51, 50, 50);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-items: center;
+}
+.infobook{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgbook{
+    width: 220px;
+    margin: 50px 50px 50px 80px;
+}
+.imgbook img {
+    width: 220px;
+}
+.namebook{
+    width: 100%;
+    border-bottom: 3px inset rgb(185, 184, 184);
+    text-align: center;
+}
+.namebook h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(20, 54, 43);
+
+}
+.listinfo{
+    width: 600px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.listinfo ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0  ;
+    padding: 0%;
+    border-bottom:3px inset rgb(185, 184, 184); ;
+}
+.listinfo ul li {
+    width: 300px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+    padding: 0px;
+    height: 40px;
+    border-bottom: 0.5px solid rgb(94, 93, 93);
+}
+.likeshare{
+    display: flex;
+}
+.likeshare p{
+    text-align: center;
+    height: 30px;
+    background-color: rgb(52, 52, 238);
+    color: white;
+}
+.likeshare{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.likebuton button{
+    background-color: rgb(52, 52, 250);
+    color: white;
+    margin: 5px;
+    border: none;
+}
+.listinfo ul li p{
+    font-size: 15px;
+    font-weight: 550;
+    color: rgb(36, 36, 36);
+}
+.datacontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.datacontent{
+    width: 1000px;
+}
+.datacontent ul {
+    list-style-type: none;
+    margin: 20px 0px 50px 0px;
+    padding: 0;
+    border-bottom: 0.5px solid rgb(94, 93, 93);;
+}
+.datacontent ul li p{
+    font-size: 17px;
+    padding-bottom: 20px;
+}

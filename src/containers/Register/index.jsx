@@ -3,7 +3,10 @@ import { useState } from 'react';
 import { Button } from '../../components/Buton';
 import { Input } from "../../components/Input";
 import "./index.css"
-
+import { Narbar } from '../narbar/Narbar';
+import { Header } from '../../components/Header/Header';
+import { ListTopic } from '../../components/ListTopic';
+import { Footer } from '../../components/Footer/Footer';
 
 export const FormRegiter = () => {
 
@@ -45,9 +48,11 @@ export const FormRegiter = () => {
   };
 
   return (
-    <div className='containerregister'>
-        <div className='regsiterinfor'>
-        </div>
+    <div className='containerpageregister'>
+    <Narbar />
+    <Header/>
+    <ListTopic/>
+      <div className='containerregister'>
         <div className='resiterform'>
             <h2>Đăng Kí</h2>
             <div className='containerresiterform'>
@@ -106,5 +111,8 @@ export const FormRegiter = () => {
             </div>
         </div>
     </div>
+    <Footer/>
+    </div>
+    
   )
 }

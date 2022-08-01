@@ -1,21 +1,22 @@
 import React from 'react'
+import { useState } from 'react';
 import { Narbar } from '../narbar/Narbar'
-import { Listitem } from './Listitem';
 import { Header } from '../../components/Header/Header';
 import { ListTopic } from '../../components/ListTopic';
+import { Listtopicitem } from './Listtopicitem';
 import { Footer } from '../../components/Footer/Footer';
-import "./Home.css"
 
-export const ContainerHome = () => {
+export const ContainerTopic = (props) => {
+    const [id, SetID]= useState(props.id)
   return (
-    <div className='containerhome'>
+    <div className='container'>
       <Narbar />
       <Header/>
       <ListTopic/>
         <div className='containerlist'>
-            <Listitem/>
+            <Listtopicitem id ={props.id}/>
         </div>
         <Footer/>
     </div>
-  );
-};
+  )
+}

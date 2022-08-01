@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    background-image: url("Background/mau-background-dep.jpg");
+    background-image: url('../Home/image/bg_pattern.jpg');
 }
 .regsiterinfor{
     height: 800px;
@@ -20,13 +20,13 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-image: linear-gradient(180deg,#181320,#512986,#512986,#181320);
+    background-image: url('../Home/image/headerbg.png');
     border-radius: 25px;
 }
 .resiterform h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    color: bisque;
+    color:rgb(2, 102, 7);
     margin-bottom: 60px;
     margin-top: 40px;
 }
@@ -53,11 +53,11 @@
     margin-left: 30px;
 }
 .check label{
-    color: antiquewhite;
+    color:rgb(2, 102, 7);
 }
 .containerresiterform p{
     font-size: 20px;
-    color: aliceblue;
+    color:rgb(2, 102, 7);
     margin-top: 0%;
     margin-bottom: 10px;
     height: 25px;
@@ -66,10 +66,10 @@
     height: 30px;
     width: 100px;
     border-radius: 10px;
-    color: #181320;
+    color:rgb(1, 5, 1);
     font-size: medium;
     border-style: hidden;
-    background-color: pink;
+    background-color:rgb(2, 102, 7);
 }
 .buton{
     display: flex;
@@ -85,6 +85,6 @@
     margin-left: 30px;
     margin-bottom: 20px;
 }
-.Saveacount label{
-    color: aliceblue;
+.Saveacountres label{
+    color:rgb(2, 102, 7);
 }

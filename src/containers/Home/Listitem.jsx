@@ -1,11 +1,10 @@
 import React from 'react'
 import { datasach } from '../../constants/darasach'
 import { useState } from 'react'
-import { Item } from '../../components/Item'
+import { Item } from '../../components/item/Item'
 
 
 export const Listitem = () => {
-  const [data,setData ] = useState(datasach);
   const [best, setBest] = useState(datasach.filter((value)=>{
     return value.c == "best seller"
   }))
@@ -17,19 +16,22 @@ export const Listitem = () => {
   }))
   return (
     <div className='containerlissitem'>
-      <h1>Best seller</h1>
+      
+      <div className='tiltlelist'>
+         <h1>Best seller</h1>
+      </div>
       <div className='topiclist'>
         {
           best.map((el,index)=>{
             return (
-              <div>
                 <Item key={index} data ={el}/>
-              </div>
             )
           })
         }
       </div>
-      <h1>Sách Được yêu thích</h1>
+      <div className='tiltlelist'>
+      <h1>The Most Favorite</h1>
+      </div>
       <div className='topiclist'>
         {
           like.map((el,index)=>{
@@ -41,7 +43,10 @@ export const Listitem = () => {
           })
         }
       </div>
-      <h1>Sách Mới Ra Mắt</h1>
+      <div className='tiltlelist'>
+      <h1>New Book</h1>
+      </div>
+      
       <div className='topiclist'>
         {
           booknew.map((el,index)=>{

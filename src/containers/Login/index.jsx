@@ -2,7 +2,10 @@ import React,{ useState } from 'react';
 import { Button } from '../../components/Buton';
 import { Input } from "../../components/Input";
 import "./indexinput.css";
-
+import { Narbar } from '../narbar/Narbar';
+import { Header } from '../../components/Header/Header';
+import { ListTopic } from '../../components/ListTopic';
+import { Footer } from '../../components/Footer/Footer';
 export const FormLogin = () => {
   const [data, setData] = useState({ 
     email: {
@@ -49,9 +52,11 @@ export const FormLogin = () => {
 
   // Phân hiển thị
   return (
+  <div className='containerpageinput'>
+      <Narbar />
+    <Header/>
+    <ListTopic/>
     <div className='containerinput'>
-      <div className='inputinfo'>
-      </div>
       <div className='inputfrom'>
          <h2> LOGIN </h2>
          <form className='fromlogin'>
@@ -75,7 +80,7 @@ export const FormLogin = () => {
            handleBlur={checkPassword}
           />
           </div>
-          <div className='Saveacount'>
+          <div className='Saveacountres'>
           <input type="checkbox"  />
           <label > Nhớ tài khoản của tôi </label>
           </div>
@@ -84,6 +89,9 @@ export const FormLogin = () => {
           </div>
     </form>
       </div> 
+
+    </div>
+    <Footer/>
     </div>
   );
 };
