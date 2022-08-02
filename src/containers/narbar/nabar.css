@@ -57,3 +57,6 @@ ol{
 .narbartable ol li{
     padding: 0 10px 0 10px;
 }
+.narbartable a{
+    text-decoration: none;
+}

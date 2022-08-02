@@ -53,9 +53,6 @@ export const FormLogin = () => {
   // Phân hiển thị
   return (
   <div className='containerpageinput'>
-      <Narbar />
-    <Header/>
-    <ListTopic/>
     <div className='containerinput'>
       <div className='inputfrom'>
          <h2> LOGIN </h2>
@@ -91,7 +88,6 @@ export const FormLogin = () => {
       </div> 
 
     </div>
-    <Footer/>
     </div>
   );
 };

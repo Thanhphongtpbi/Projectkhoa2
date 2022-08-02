@@ -1,9 +1,7 @@
 import React from 'react';
 import './nabar.css';
-import {AiFillBook} from "react-icons/ai"
 import { useState } from 'react';
-
-
+import {Link} from 'react-router-dom'
 
 export const Narbar = () => {
 
@@ -18,27 +16,27 @@ export const Narbar = () => {
             <ol>
                 <li className='menu'> 
                     <div className='the'>
-                        <p>Trang chủ</p>
+                       <Link to="/"><p>Trang chủ</p></Link> 
                     </div>
                 </li>
                 <li> 
                     <div className='the'>
-                    <p>Giới Thiệu</p>
+                    <Link to= "/gioithieu"><p>Giới Thiệu</p></Link>
                     </div>
                 </li>                
                 <li> 
                     <div className='the'>
-                    <p>Cộng Đồng </p>
+                        <Link to="/"><p>Cộng Đồng </p></Link>
                     </div>
                 </li>                
                 <li> 
                     <div className='the'>
-                    <p>Đăng nhập</p>
+                       <Link to="/login"><p>Đăng Nhập </p></Link>
                     </div>
                 </li>                
                 <li> 
                     <div className='the'>
-                        <p>Đăng Kí</p>
+                         <Link to="/register"><p>Đăng Kí</p></Link>
                     </div>
                 </li>
             </ol>

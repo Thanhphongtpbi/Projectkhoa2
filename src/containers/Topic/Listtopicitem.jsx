@@ -4,21 +4,26 @@ import { datasach } from '../../constants/darasach'
 import { Item } from '../../components/item/Item';
 import "./topic.css"
 
+const typeOfBooks = [
+  "Văn Học Việt Nam",
+  "Văn Học Nước Ngoài",
+  "Kinh Tế Chính Trị",
+  "Lịch sử - Địa lý",
+  "Thời sự Văn Hóa",
+  "Manga-Anime",
+  "Kĩ Năng Sống",
+]; 
+
 export const Listtopicitem = (props) => {
-    const [typeid,settypeID ] = useState(props.id-1);
-    const [topic, setTopic] = useState(datasach.filter((value)=>{
+
+    const topic = datasach.filter((value)=>{
       return value.Topicid == props.id
-    }))
-    const [data,setData ]=useState(['Văn Học Việt Nam', 'Văn Học Nước Ngoài', 'Kinh Tế Chính Trị', 'Lịch sử - Địa lý','Thời sự Văn Hóa','Manga-Anime','Kĩ Năng Sống'
-])
-    console.log(topic)
-    const [dem,setDem ] = useState(data[typeid]);
-    
+    });    
   return (
     <div className='containeritemtopic'>
       <div className='tiltlelist'>
       <h1>
-            {dem}
+          {typeOfBooks[props.id - 1]}
       </h1>
       </div>
         <ul>

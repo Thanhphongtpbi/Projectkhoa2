@@ -5,6 +5,7 @@ import { Header } from '../../components/Header/Header';
 import { ListTopic } from '../../components/ListTopic';
 import { Footer } from '../../components/Footer/Footer';
 import "./Home.css"
+import { Outlet } from "react-router-dom";
 
 export const ContainerHome = () => {
   return (
@@ -12,10 +13,8 @@ export const ContainerHome = () => {
       <Narbar />
       <Header/>
       <ListTopic/>
-        <div className='containerlist'>
-            <Listitem/>
-        </div>
-        <Footer/>
+      <Outlet />
+      <Footer/>
     </div>
   );
 };

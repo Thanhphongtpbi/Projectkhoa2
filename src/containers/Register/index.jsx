@@ -49,9 +49,6 @@ export const FormRegiter = () => {
 
   return (
     <div className='containerpageregister'>
-    <Narbar />
-    <Header/>
-    <ListTopic/>
       <div className='containerregister'>
         <div className='resiterform'>
             <h2>Đăng Kí</h2>
@@ -111,7 +108,6 @@ export const FormRegiter = () => {
             </div>
         </div>
     </div>
-    <Footer/>
     </div>
     
   )

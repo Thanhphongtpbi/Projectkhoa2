@@ -1,22 +1,19 @@
 import React from 'react'
 import { useState } from 'react';
-import { Narbar } from '../narbar/Narbar'
-import { Header } from '../../components/Header/Header';
-import { ListTopic } from '../../components/ListTopic';
 import { Listtopicitem } from './Listtopicitem';
-import { Footer } from '../../components/Footer/Footer';
+import { useEffect } from "react";
 
 export const ContainerTopic = (props) => {
-    const [id, SetID]= useState(props.id)
+    const [id, setId]= useState(props.id)
+
+    useEffect(() => {
+      setId(props.id);
+    }, [props]);
   return (
     <div className='container'>
-      <Narbar />
-      <Header/>
-      <ListTopic/>
         <div className='containerlist'>
-            <Listtopicitem id ={props.id}/>
+            <Listtopicitem id ={id}/>
         </div>
-        <Footer/>
     </div>
   )
 }

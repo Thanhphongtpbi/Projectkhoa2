@@ -2,7 +2,7 @@
 export const datasach = [
     {
         name: " Những Tù Nhân  của địa lý ",
-        address: "tu",
+        address: 1,
         c: "best seller",
         id: 1,
         Click : 0,
@@ -70,7 +70,7 @@ export const datasach = [
         address: 6,
         c: "best seller",
         Click : 6,
-        id : 5,
+        id : 6,
         Topicid : 5,
         author : "	Robert T. Kiyosaki",
         page: 269,
@@ -104,7 +104,7 @@ export const datasach = [
      {
         name: " Gió thổi mùa trăng năm ấy ",
         address:9,
-        id : 1,
+        id : 9,
         Click : 0 ,
         Topicid : 2,
         author : "Vạn Lý Độc Hành",

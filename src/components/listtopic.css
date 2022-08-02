@@ -49,6 +49,7 @@
     text-align: center;
     padding: 0%;
     margin: 0%;
+    text-decoration: none;
 }
 .dropdowncontent p{
     padding: 10px;
@@ -57,4 +58,7 @@
 }
 .dropdowncontent li:hover{
     background-color:   rgb(231, 140, 36)
+}
+.dropdowncontent a {
+    text-decoration: none;
 }
