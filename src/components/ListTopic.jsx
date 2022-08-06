@@ -51,7 +51,6 @@ export const ListTopic = () => {
             </div>
           </li>
         </ul>
-
       </div>
     </div>
   )

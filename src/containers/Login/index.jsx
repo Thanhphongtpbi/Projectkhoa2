@@ -2,10 +2,6 @@ import React,{ useState } from 'react';
 import { Button } from '../../components/Buton';
 import { Input } from "../../components/Input";
 import "./indexinput.css";
-import { Narbar } from '../narbar/Narbar';
-import { Header } from '../../components/Header/Header';
-import { ListTopic } from '../../components/ListTopic';
-import { Footer } from '../../components/Footer/Footer';
 export const FormLogin = () => {
   const [data, setData] = useState({ 
     email: {

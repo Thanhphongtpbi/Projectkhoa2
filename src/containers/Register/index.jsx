@@ -77,13 +77,24 @@ export const FormRegiter = () => {
                 </div>
               </div>
               <div className='Nhaplai'>
-                <p>Nhap lai Password</p>
+                <p>Nhập lại Password</p>
                 <div >
                 <Input
                  name={'Nhaplai'}
                  placeholder={''}
                  value={data.nhaplai.value}
                  handleChange={changeValue('nhaplai')}
+                 />
+                </div>
+              </div>
+              <div className='name'>
+                <p>Tên hiển thị</p>
+                <div >
+                <Input
+                 name={'name'}
+                 placeholder={''}
+                 value={data.nhaplai.value}
+                 handleChange={changeValue('name')}
                  />
                 </div>
               </div>
@@ -102,7 +113,7 @@ export const FormRegiter = () => {
               <input type="checkbox" /><label>Tôi đã đọc kĩ và  đồng ý với điều khoản </label>
               </div>
               <div className='buton'>
-              <Button text='Login' handleClick={handleSubmit} />
+              <Button text='Đăng Kí' handleClick={handleSubmit} />
               </div>
               
             </div>
