@@ -3,54 +3,89 @@ export const datasach = [
     {
         name: " Những Tù Nhân  của địa lý ",
         address: 1,
-        c: "best seller",
+        tag : ["like", "best seller"],
         id: 1,
         Click : 0,
         author: "Tim Marshall",
         pulish: "30-11-2020",
         tran: "Phan Linh Lan",
         nxb : "Hội nhà văn",
-        Topicid : 4,
-        page: 432
+        page: 432,
+        Rate : 4,
+        category : ["Kinh Tế Chính Trị","like", "best seller"],
+        description: ["“Khi chúng ta đang vươn tới những vì sao, chính bởi những thách thức đặt ra phía trước mà chúng ta có lẽ sẽ phải chung tay để ứng phó: du hành vào vũ trụ không phải với tư cách người Nga, người Trung Quốc hay người Mỹ, mà là những đại diện của nhân loại. Nhưng cho đến nay, mặc dù đã thoát khỏi sự kìm hãm của trọng lực, chúng ta vẫn đang bị giam giữ trong tâm trí của chính mình, bị giới hạn bởi sự nghi ngờ của mình về ‘kẻ khác’, và do đó bởi cuộc cạnh tranh chính yếu về tài nguyên. Phía trước chúng ta còn cả một chặng đường dài.”",
+        "“Người Nga vẫn sẽ lo âu dõi mắt về phía tây, nơi có dải đất vẫn còn là bình nguyên, dễ bị xâm nhập; Ấn Độ và Trung Quốc vẫn sẽ bị cách ngăn bởi dãy Himalaya sừng sững, và địa lý sẽ xác định bản chất của những cuộc xung đột giữa hai nước trong tương lai, bất chấp sự phát triển của công nghệ và quân sự; “Đại gia đình châu Âu” đói khát năng lượng, bị phụ thuộc vào những đường ống dẫn dầu từ Nga, và do đó họ không thực sự có nhiều lựa chọn trên bàn đàm phán; sự suy yếu của Hoa Kỳ trong vị thế một siêu cường số một dường như đã bị thổi phồng quá mức, nếu xét tới những lợi thế địa lý mà nước này đã dày công gây dựng…",
+"Và còn rất nhiều dẫn chứng cho thấy vai trò then chốt của các nhân tố địa lý trong bối cảnh chính trị hiện đại. Nhân loại đang trên đường hiện thực hóa giấc mơ vươn vào không gian. Nhưng Tim Marshall vẫn xác quyết rằng: “Các nhân tố địa lý vốn đã góp phần xác định lịch sử đa phần sẽ tiếp tục xác định tương lai của chúng ta”, và rằng: “Địa lý vẫn luôn luôn là một loại nhà tù định nghĩa một quốc gia là gì, hoặc có thể là gì, và là một nhà tù mà các nhà lãnh đạo thế giới thường phải nỗ lực để thoát ra”.",
+"Hay nói cách khác, theo luận điểm của Tim Marshall, thì một thế kỷ nữa kể từ bây giờ, nhân loại vẫn sẽ là “những tù nhân của địa lý”.“Một suy ngẫm cốt lõi và chi tiết về những động lực địa chính trị tồn tại trên toàn cầu.” - Tiến sĩ Sajjan M. Gohel"],
+        review : {
+            rating: 5,
+            comment:"Sách phân tích sâu sắc những khía cạnh địa lý, chính trị và đặc thù các dân tộc. Sự khác nhau của tinh thần dân tộc trên cơ sở sự khác nhau giữa đặc tính từng vùng đất..." , 
+            user: 1
+        }
     },
     {
         name: " Mùi Hương ",
         address: 2,
-        l: "like",
-        c: "best seller",
+        tag : ["like", "best seller"],
         id: 2 ,
         Click : 0,
-        Topicid : 2,
         author : "Patrick Süskind",
         page: 347,
         pulish: "04-10-2019",
         tran: "Lê Chu Cầu",
-        nxb : "Văn học" 
+        nxb : "Văn học" ,
+        Rate : 4,
+        category : ["Văn Học Nước Ngoài"],
+        description: ["Mùi hương là một cuốn tiểu thuyết ly kỳ về một tên tội phạm đặc biệt.Nhân vật chính của tác phẩm là Jean-Baptise Grenouille, một số phận khác người từ khi mới sinh. Mẹ hắn đã cố tình để mặc hắn chết sặc trông đống ruột cá với mùi máu tanh tưởi. Thế rồi bà ta bị kết án tử hình, còn hắn thì vẫn lớn lên.Hắn có hình dong kỳ dị, và tâm hồn cũng bệnh hoạn. Mọi người ghẻ lạnh, khinh miệt hắn. Hắn đã từng phải sống trong cô độc và đói rét. Nhưng một biệt tài đã giúp cho hắn tìm một con đường sống. Hắn có khả năng khứu giác đặc biệt. Hắn có thể nhận biết, phân biệt và hơn thế, ghi nhớ các mùi hương. Nhờ vào đó, hắn trở thành một thiên tài trong giới sản xuất nước hoa Pháp.Với một đầu óc dị hợm, hắn mơ ước sẽ tạo ra được một hương thơm độc đáo cho riêng mình, một loại nước hoa gợi tình vô song. Và để thoả mãn dục vọng đó, hắn đã săn đuổi mùi hương từ hai mươi lăm trinh nữ…"],
+        review : {
+            rating: 5,
+            comment: "" ,
+            user: 1
+        }
     },
     {
         name: " Sức mạnh của người mẹ nhật ",
         address: 3,
-        c: "best seller",
+        tag : ["like", "best seller"],
         id: 3 ,
         Click : 0,
-        Topicid : 7,
         author : "An Minjung",
         page: 276,
         pulish: "25-06-2018",
         tran: " Kim Ngân",
-        nxb : "Văn học"
+        nxb : "Văn học",
+        Rate : 4,
+        category : ["Văn Học Nước Ngoài"],
+        description:["Cuộc đời tác giả Ahn Min Jung bắt đầu thay đổi từ khi gặp người chồng Trung Quốc giỏi tiếng Nhật. Sau nhiều thăng trầm và đi tới kết hôn, cô đã sinh được một bé gái xinh đẹp tên là Lena và bắt đầu nuôi dạy con ở Nhật. Cuốn sách này kể lại hành trình nuôi dạy con mà người mẹ Hàn đích thân trải nghiệm trong quá trình nuôi dạy con gái tại Nhật, được trình bày với sự quan sát và văn phong báo chí đặc trưng của một phóng viên. Những bài tiểu luận dựa trên kinh nghiệm có thực của gia đình chồng Trung vợ Hàn nuôi con tại Nhật đã gây nhiều chú ý trên diễn đàn Naver, khơi gợi sự đồng cảm sâu sắc của các bà mẹ Hàn Quốc ngay từ trước khi xuất bản.",
+        "Sức mạnh của người mẹ Nhật sẽ hé lộ nền tảng của phương thức giáo dục ở đất nước sản sinh ra nhiều người đạt giải Nobel nhất châu Á,  không chỉ là câu trả lời cho những bà mẹ đang loay hoay với nhiệm vụ dường như bất khả thi để trở thành người mẹ hoàn hảo, mà còn là những tinh túy chắt lọc từ triết lý sống của người Nhật dành cho những ai quan tâm đến văn hóa Nhật Bản.",
+        "“Đây là cuốn sách khiến chúng ta quay lại nhìn và suy ngẫm về văn hóa dạy con của mình.”- SBS News"],
+        review : {
+            rating: 5,
+            comment: "" ,
+            user: 1
+        }
     },
     {
         name: " Phía tây không có gì lạ ",
         address: 4,
+        tag : ["like", "best seller"],
         id: 4 ,
         Click : 0,
-        Topicid : 2,
         author : "Erich Maria Remarque",
         page: 248,
         pulish: "2017",
         tran: " Vũ Hương Giang",
-        nxb : "Văn học"
+        nxb : "Văn học",
+        Rate : 4,
+        category : ["Văn Học Nước Ngoài"],
+        description: ["Thế chiến thứ nhất nổ ra, những chàng trai đang ngồi trên ghế nhà trường bị chuyển thẳng ra mặt trận. Tại đây sự khốc liệt của chiến tranh đã khiến họ tê dại khi bom đạn không chỉ tước đi những phần cơ thể mà còn cả tâm hồn. Thế nên chưa kịp trưởng thành họ đã trở nên già nua, bởi gần với cái chết hơn là sự sống. Họ cũng chẳng còn tin tưởng ai, chẳng thiết tha điều gì, kể cả ngày trở về.",
+        "Cho nên khi tất cả đồng đội cùng trang lứa đã ngã xuống, cái chết đối với những chàng trai ấy là sự giải thoát. Họ nằm xuống nhẹ nhangfm thanh than đến độ tưởng như chẳng hề may may lay động đến thứ gì xung quanh, dù chỉ là một ngọn cỏ. Mặt trận hoàn toàn yên tĩnh, bản báo cáo chiến trường chỉ ghi vẻn vẹn một câu: “Ở phía Tây, không có gì lạ.” Phải, chẳng có gì lạ, chỉ có một người vừa rời khỏi cuộc đời khi độ tuổi mới chớm đôi mươi."
+        ],
+        review : {
+            rating: 5,
+            comment: "" ,
+            user: 1
+        },
     },
     {
         name: " Nhà Giả Kim ",
